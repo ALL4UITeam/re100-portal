@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<title>경기기후플랫폼</title>
+<meta name="title" content="경기기후플랫폼" /> 
+<meta name="author" content="경기기후플랫폼" />
+<meta name="keywords" content="경기기후플랫폼" />
+<meta name="description" content="경기기후플랫폼" />
+<meta property="og:type" content="website">
+<meta property="og:title" content="경기기후플랫폼">
+<meta property="og:site_name" content="경기기후플랫폼">
+<meta property="og:description" content="경기기후플랫폼">
+
+<link rel="icon" type="image/x-icon" href="./assets/images/ico/favicon.png">
+<link rel="apple-touch-icon-precomposed" type="/image/x-icon" href="./assets/images/ico/favicon.png">
+<link rel="shortcut icon" type="image/x-icon" href="./assets/images/ico/favicon.png">
+
+
+<link rel="stylesheet" href="./assets/js/vendor/jquery/jquery-ui.css">
+<link rel="stylesheet" href="./assets/fonts/pretendard.css">
+<link rel="stylesheet" href="./assets/css/slick.css">
+<link rel="stylesheet" href="./assets/js/vendor/swiper/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+<link rel="stylesheet" href="./assets/css/reset.css">
+<link rel="stylesheet" href="./assets/css/styles.css">
+<link rel="stylesheet" href="./assets/js/vendor/aos/aos.css">
+
+
+    
+</head>
+<body>
+    <!-- 전체 -->
+    <section id="wrap">
+    <div class="skip">
+        <a href="#header">주메뉴 바로가기</a>
+        <a href="#mainContainer">본문 바로가기</a>
+        <a href="#">하단 정보 바로가기</a>
+    </div>
+    <div id="header" class="main-header header">
+    <div class="header-container">
+        <div class="header-top sub-header-top">
+            <div class="header-inner">
+                <a href="#" class="header-bi"><span class=" sr-only">로고</span></a>
+                <div class="head--util">
+                    <a href="" class="head--eng">
+                        <i class="icon en-ico"></i>
+                        <span>language</span>
+                    </a>
+                    <button type="button" class="ham-btn mobile-button" id="btnMobile" title="메뉴 열림">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="gnb--wrap">
+            <nav id="gnb" class="total-menu">
+                <ul class="gnb--inner">
+                    <li class="gnb--dep01">
+                        <a href="">탄소</a>
+                        <div class="gnb--dep02">
+                            <ul>
+                                <li><a href="#">탄소중립기본계획</a></li>
+                                <li><a href="#">이행 및 적응 평가</a></li>
+                                <li><a href="#">탄소 공간정보</a></li>
+                                <li><a href="#">탄소총량관리</a></li>
+                                <li><a href="#">경기도 기후정책 소개</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="gnb--dep01">
+                        <a href="">에너지</a>
+                        <div class="gnb--dep02">
+                            <ul>
+                                <li><a href="#">에너지 현황</a></li>
+                                <li><a href="#">태양광 도입</a></li>
+                                <li><a href="#">에너지 절감</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="gnb--dep01">
+                        <a href="">기후리스크</a>
+                        <div class="gnb--dep02">
+                            <ul>
+                                <li><a href="#">기후위기 적응</a></li>
+                                <li><a href="#">그린인프라</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="gnb--dep01">
+                        <a href="">기후경영</a>
+                        <div class="gnb--dep02">
+                            <ul>
+                                <li><a href="#">중소기업 탄소경영</a></li>
+                                <li><a href="#">중소기업 에너지경영</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="gnb--dep01">
+                        <a href="">기후위기 대응지도</a>
+                        <div class="gnb--dep02">
+                            <ul>
+                                <li><a href="#">탄소공간지도</a></li>
+                                <li><a href="#">태양광 지도</a></li>
+                                <li><a href="#">기후위기 적응지도</a></li>
+                                <li><a href="#">그린인프라 지도</a></li>
+                                <li><a href="#">도시생태현황지도</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="gnb--dep01">
+                        <a href="">정책분석지원</a>
+                        <div class="gnb--dep02">
+                            <ul>
+                                <li><a href="#">정책분석지원</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="gnb--dep01">
+                        <a href="">Open & Share</a>
+                        <div class="gnb--dep02">
+                            <ul>
+                                <li><a href="#">OpenLab</a></li>
+                                <li><a href="#">API & Download</a></li>
+                                <li><a href="#">정보공유신청</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="gnb--dep01">
+                        <a href="">안내</a>
+                        <div class="gnb--dep02">
+                            <ul>
+                                <li><a href="#">경기기후플랫폼 소개</a></li>
+                                <li><a href="#">사이트맵</a></li>
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">자주하는질문</a></li>
+                                <li><a href="#">Q&A</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="gnbBg"><div class="gnbBg-inner"><img src="./assets/images/common/gnb-logo.png" alt=""></div></div>
+</div>
+
+<aside id="nav" class="nav">
+    <ul class="nav-gnb">
+        <li class="lv1-li">
+            <a href="#"><span>탄소</span></a>
+            <div class="depth">
+                <ul>
+                    <li><a href="#">탄소중립기본계획</a></li>
+                    <li><a href="#">이행 및 적응 평가</a></li>
+                    <li><a href="#">탄소 공간정보</a></li>
+                    <li><a href="#">탄소총량관리</a></li>
+                    <li><a href="#">경기도 기후정책 소개</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="lv1-li">
+            <a href="#"><span>에너지</span></a>
+            <div class="depth">
+                <ul>
+                    <li><a href="#">에너지 현황</a></li>
+                    <li><a href="#">태양광 도입</a></li>
+                    <li><a href="#">에너지 절감</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="lv1-li">
+            <a href="#"><span>기후리스크</span></a>
+            <div class="depth">
+                <ul>
+                    <li><a href="#">기후위기 적응</a></li>
+                    <li><a href="#">그린인프라</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="lv1-li">
+            <a href="#"><span>기후경영</span></a>
+            <div class="depth">
+                <ul>
+                    <li><a href="#">중소기업 탄소경영</a></li>
+                    <li><a href="#">중소기업 에너지경영</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="lv1-li">
+            <a href="#"><span>기후위기 대응지도</span></a>
+            <div class="depth">
+                <ul>
+                    <li><a href="#">탄소공간지도</a></li>
+                    <li><a href="#">태양광 지도</a></li>
+                    <li><a href="#">기후위기 적응지도</a></li>
+                    <li><a href="#">그린인프라 지도</a></li>
+                    <li><a href="#">도시생태현황지도</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="lv1-li">
+            <a href="#"><span>정책분석지원</span></a>
+            <div class="depth">
+                <ul>
+                    <li><a href="#">정책분석지원</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="lv1-li">
+            <a href="#"><span>Open & Share</span></a>
+            <div class="depth">
+                <ul>
+                    <li><a href="#">OpenLab</a></li>
+                    <li><a href="#">API & Download</a></li>
+                    <li><a href="#">정보공유신청</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="lv1-li">
+            <a href="#"><span>안내</span></a>
+            <div class="depth">
+                <ul>
+                    <li><a href="#">경기기후플랫폼 소개</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">자주하는질문</a></li>
+                    <li><a href="#">Q&A</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    
+</aside>
+    
+    <div id="SubContainer" class="SubContainer">
+        <div class="sub--wrap">
+            <div id="first-video" class="first--video">
+                <video src="./assets/video/AdobeStock_421125228_Video_HD_Preview.mov" muted autoplay playsinline loop></video>
+                <div class="first--video--info">
+                    <div class="first--video--inner">
+                        <div class="first--video--txt fade-up">
+                            <h2>안내</h2>
+                            <h3>
+                                기후위기를 기회로, 경기기후플랫폼
+                            </h3>
+                            <p>
+                                오늘의 기후 위기를 내일의 성장 기회로 만드는 플랫폼<br>
+                                경기기후플랫폼입니다.<br>
+                                다양한 정보를 확인하실 수 있습니다.<br>
+                            </p>
+                        </div>
+                        <div class="first--video--tab info" data-simplebar>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <strong>경기기후플랫폼 소개</strong>
+                                        <span>경기기후플랫폼 서비스 소개</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <strong>사이트맵</strong>
+                                        <span>경기기후플랫폼 전체 서비스 사이트 맵</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <strong>공지사항</strong>
+                                        <span>경기기후플랫폼의 새로운 소식 </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <strong>자주하는질문</strong>
+                                        <span>경기기후플랫폼의 자주하는 질믄과 답변 </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <strong>Q&A</strong>
+                                        <span>경기기후플랫폼의 자주하는 질믄과 답변 </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab--stiky info">
+                <div class="sub--wrap--inner">
+                    <ul class="">
+                        <li class="">
+                            <a href="#">경기기후플랫폼 소개</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">사이트맵</a>
+                        </li>
+                        <li>
+                            <a href="#">공지사항</a>
+                        </li>
+                        <li>
+                            <a href="#">자주하는질문</a>
+                        </li>
+                        <li>
+                            <a href="#">Q&A</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 250726 경기기후플랫폼소개 -->
+            <div class="gg-intro">
+                <div class="gg-intro-top">
+                    <div class="container">
+                    <div class="logo"><img src="./assets/images/250726/logo.png" alt=""></div>
+                    <div class="text">경기도의 데이터 기반 기후·에너지 정책을 지원하고, <br class="mobile-block">도민과 기업에 실용적인 해결책을 제공하는 기후 플랫폼</div>
+
+                    <div class="video-area">
+                        <video src="https://www.w3schools.com/html/mov_bbb.mp4" muted autoplay playsinline loop></video>
+                    </div>
+
+                    <div class="text-list">
+                        <div class="text-group">
+                            <strong>추진배경</strong>
+                            <p>
+                                기후위기 시대에 경기도는 취약한 재생에너지 기반으로 인해 RE100 이행 등 미래 성장 동력 확보에 어려움이 있었습니다. <br>
+                                기존의 통계 데이터는 탄소 흡수 및 배출원을 관리하고 기후재난에 대응하기 위한 실효성 있는 과학적 정책을 수립하기에는 한계가 있었습니다. <br>
+                                기후위기 취약계층과 중소기업이 겪는 '기후 격차'를 해소할 실용적 해법도 시급했습니다. <br>
+                                이에 경기도는 정밀 데이터에 기반한 과학적 의사결정을 지원하기 위해 기후플랫폼을 구축했습니다.
+                            </p>
+                        </div>
+                        <div class="text-group">
+                            <strong>구축목적</strong>
+                            <p>
+                                경기 기후플랫폼은 도민과 기업의 현실에 맞는 맞춤형 기후위기 정보를 생산·유통하고, 이를 기반으로 과학적이고 합리적인 기후·에너지 정책 수립을 지원합니다. <br>
+                                더불어 데이터의 공유와 협력을 통해 지역이 주도하는 기후위기 대응 생태계를 구축하는 것을 목적으로 합니다
+                            </p>
+                        </div>
+                    </div>
+                    <!-- // text-list -->
+                    </div>
+                </div>
+
+                <div class="gg-intro-vision">
+                    <div class="container">
+                        <div class="img-box"><img src="./assets/images/250726/vision.png" alt=""></div>
+                        <div class="mobile-vision">
+                            <strong>기후플랫폼 비전</strong>
+                            <div class="desc">
+                                <div>VISION</div>
+                                <p>선명한 데이터 기반의</p>
+                                <b>기후에너지 정책 가속화 플랫폼</b>
+                            </div>
+                            <ul>
+                                <li>
+                                    <strong>VISION 01</strong>
+                                    <p>
+                                        과학적 데이터기반의 <b>정책의사 결정체계 구현</b>
+                                    </p>
+                                </li>
+                                <li>
+                                    <strong>VISION 02</strong>
+                                    <p>
+                                        도민과 기업의 현실에 맞는 <b>기후에너지 정보 생산/유통</b>
+                                    </p>
+                                </li>
+                                <li>
+                                    <strong>VISION 03</strong>
+                                    <p>
+                                        지역기반의 <b>시의성 데이터 생태계</b>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gg-intro-value">
+                    <div class="container">
+                        <strong>기후플랫폼 핵심가치</strong>
+                        <div class="grid">
+                            <div class="grid-item ty1">
+                                <div class="grid-item-title">
+                                    <b>도민</b>
+                                    <p>경재적 가치와 안전</p>
+                                </div>
+                                <div class="text">
+                                    <p>데이터 기반</p>
+                                    <strong>기후위기 적응 행동참여</strong>
+                                </div>
+                                <div class="round-list">
+                                    <p>기후위기 취약지역 인식과 안전 행동</p>
+                                    <p>재생에너지 기반의 소득</p>
+                                    <p>에너지 절감으로 가치 창출</p>
+                                </div>
+                                
+                                <div class="point-list">
+                                    <strong>핵심서비스</strong>
+                                    <ul>
+                                        <li>기후위기 통합정보 서비스</li>
+                                        <li>자가 태양광 도입 시뮬레이션</li>
+                                        <li>공동주택 에너지 절감 솔루션</li>
+                                        <li>에너지 절감 가이드</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- //grid-item -->
+                            <div class="grid-item ty2">
+                                <div class="grid-item-title">
+                                    <b>기업</b>
+                                    <p>현안해결과 경쟁력</p>
+                                </div>
+                                <div class="text">
+                                    <p>솔루션 기반의</p>
+                                    <strong>탄소/에너직 관리 현안 해결</strong>
+                                </div>
+                                <div class="round-list">
+                                    <p>국내외 탄소규제 대응 정보의 원활한 구축</p>
+                                    <p>에너지 소비 및 관리 효율화</p>
+                                    <p>기후위기 데이터 기반 신규 비즈니스 모델</p>
+                                </div>
+                                
+                                <div class="point-list">
+                                    <strong>핵심서비스</strong>
+                                    <ul>
+                                        <li>기업 탄소회계 자동화 솔루션</li>
+                                        <li>기업 에너지 절감 솔루션</li>
+                                        <li>태양광 도입적지 정보</li>
+                                        <li>OpenLab_데이터 공유</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- //grid-item -->
+                            <div class="grid-item ty3">
+                                <div class="grid-item-title">
+                                    <b>공공</b>
+                                    <p>데이터 기반 정책</p>
+                                </div>
+                                <div class="text">
+                                    <p>기후에너지 정책분야</p>
+                                    <strong>의사결정지원 시스템</strong>
+                                </div>
+                                <div class="round-list">
+                                    <p>세부적 재생에너지 도입 전략 수립</p>
+                                    <p>정량적 탄소 흡/배출원 관리 정책</p>
+                                    <p>기후위기 취약지역 및 인구 이슈 대응 정책</p>
+                                </div>
+                                
+                                <div class="point-list">
+                                    <strong>핵심서비스</strong>
+                                    <ul>
+                                        <li>취약지역 및 취약인구 공간정보</li>
+                                        <li>토지지용 변화 탄소흡배출 시뮬레이션</li>
+                                        <li>도시관리를 위한 그린인프라정보</li>
+                                        <li>정책지원시스템</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- //grid-item -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gg-intro-special">
+                    <div class="container">
+                        <strong>기후플랫폼의 특징</strong>
+                        <div class="desc">경기 기후플랫폼은 기존 데이터의 한계를 넘어서기 위해 경기도 전역의 디지털 트윈 데이터를 구축하였으며, <br> 세부적이며 방대한 데이터의 분석 결과를 직관적인 정보로 만들어 제공하고 있으며, 사용자가 직접 분석하고 시뮬레이션하여 현실의 문제 해결에 사용할 수 있도록 지원합니다.</div>
+                        <div class="block-list">
+                            <div class="box">
+                                <strong>경기도의 디지털 트윈, 데이터의 새로운 기준</strong>
+                                <p>
+                                    기후 플랫폼의 모든 정보는 경기도 전지역에 대한 초고정밀 항공 LiDAR 촬영을 통해 확보한 3차원 공간정보를 근간으로 경기도 전역을 현실과 거의 동일하게 <br>
+                                    가상 세계에 구현한  '디지털 트윈’ 데이터에서 시작됩니다. 경기도 디지털 트윈 데이터를 기반으로 기존에 없던 0.5m 급 지형정보를 구축하고, 개별나무 수준에서 분석된 탄소흡수원과 <br>
+                                    건물단위 탄소배출량을 산정했으며, 170만 동이 넘는 경기도 모든 건축물의 3D 모델과 세부적인 자연환경 정보가 담긴 도시생태현황지도를 제작하여 다양한 기후·에너지 정책에 활용합니다.
+                                </p>
+                            </div>
+                            <div class="box">
+                                <strong>데이터의 재해석, 인터랙티브 그래프</strong>
+                                <p>
+                                    탄소중립 목표, 에너지 생산·소비 현황, 기후재난 정보, 탄소흡수량과 배출량 등의 정보는 그 양이 방대하고 복잡하여 일반 사용자가 이해하기 어렵습니다.  <br>
+                                    경기 기후플랫폼은 이 문제를 해결하기 위해, 사용자가 원하는 방식으로 데이터를 직접 탐색할 수 있는 강력한 '인터랙티브 시각화' 기능을 제공합니다. <br>
+                                    사용자는 탄소 배출량, 기후위기 시나리오 등 원하는 데이터를 선택하고, 일반적인 차트와 그래프는 물론 카토그램, 트리맵 등 다양한 시각화 도구를 활용하여 자신만의 분석 자료를 만들 수 <br>
+                                    있습니다. 이는 어려운 데이터를 누구나 쉽게 이해하고 목적에 맞는 인사이트를 얻도록 하여, 데이터의 사용성을 극대화 할 것입니다.
+                                </p>
+                            </div>
+                            <div class="box">
+                                <strong>지도 위에서 찾는 해답, 맞춤형 공간 분석</strong>
+                                <p>
+                                    경기 기후플랫폼의 핵심은 '경기기후지도'라는 이름으로 제공되는 강력한 공간정보 활용 서비스에 있습니다. 이는 단순히 수많은 주제도를 보여주는 것을 넘어, <br>
+                                    사용자가 직접 데이터를 탐색하고 분석하여 각자의 목적에 맞는 해답을 찾아가는 상호작용적인 서비스입니다. <br>
+                                    사용자는 지도 위에서 원하는 지역의 탄소 배출량, 재해 위험도, 에너지 현황 등 상세 정보를 표와 그래프 등 다양한 형태로 즉시 확인할 수 있습니다. <br>
+                                    내가 선택한 지역과 다른 지역의 현황을 비교 분석하여 정책의 우선순위를 정하거나 사업의 타당성을 검토할 수 있습니다.
+                                </p>
+                            </div>
+                            <div class="box">
+                                <strong>생활과 업무를 바꾸는 솔루션, 사용자 시뮬레이션</strong>
+                                <p>
+                                    경기 기후플랫폼은 데이터 분석을 넘어, 사용자가 직접 행동의 변화에 따른 이득을 '실제 숫자'로 확인하고 기후위기 대응에 동참하도록 이끄는 강력한 시뮬레이션 솔루션을 제공합니다. <br>
+                                    도민들은 ＇태양광 도입 시뮬레이션'을 통해 예상 수익과 전기요금 절감액을 미리 계산해볼 수 있으며, '건축물 그린리모델링' 기능을 통해 에너지 절감 효과를 눈으로 확인할 수 있습니다. <br>
+                                    '공동주택 에너지 절감 솔루션'으로 우리 아파트의 에너지 효율을 진단하고 개선 방안을 찾을 수 있습니다. <br>
+                                    기업은 '중소기업 에너지경영 지원 서비스'로 비용을 절감할 최적의 방안을 찾고, '탄소회계 서비스'로 ESG 경영의 기초를 다질 수 있습니다.  <br>
+                                    공공영역에서는 '탄소총량 시뮬레이션＇을 통해 정량적인 탄소관리가 가능하고, 정책지원시스템을 통해 다양한 정책사업의 영향을 확인하는 것이 가능합니다.  
+                                </p>
+                            </div>
+                            <div class="box">
+                                <strong>함께 만드는 개방과 협력의 데이터 생태계
+                                </strong>
+                                <p>
+                                    경기 기후플랫폼은 완성된 정보를 일방적으로 제공하는 닫힌 시스템이 아닙니다. <br>
+                                    기후 플랫폼은 ＇Open & Share＇를 통해 연구자, 기후테크 스타트업, 민간 기업이 플랫폼의 핵심 데이터와 분석 결과를 API나 다운로드 형태로 자유롭게 활용할 수 있는 통로를 제공합니다.  <br>
+                                    이는 경기도의 데이터를 공공재로서 개방하여, 새로운 비즈니스와 혁신적인 기후 기술이 탄생하는 오픈 이노베이션 데이터 생태계를 조성하기 위해서 입니다. <br>
+                                    경기 기후플랫폼은 모두의 지성과 기술을 연결하는 허브가 되어, 지역 사회 전체가 함께 기후위기 대응의 해법을 만들어가는 미래를 열어갑니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="gg-intro-end">
+                    <div class="container">
+                        <h3>데이터 구축과정</h3>
+                        <p>경기기후플랫폼 데이터 구축과정을 소개합니다.</p>
+                        <div class="video-area">
+                            <video src="./assets/images/250726/video.mp4" autoplay muted loop></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- <footer id="footer" class="footer">
+    <div class="footer--family">
+        <div class="footer--family--container">
+            <select class="form-control" name="name" title="관련사이트 바로가기">
+                <option value="1" title="관련사이트 열림">관련기관 사이트</option>
+                <option value="2" title="">사이트1</option>
+            </select>
+        </div>
+    </div>
+    <div class="footer--container main--footer">
+        <div class="footer--logo">
+            <img src="./assets/images/common/foot-logo-white.png" alt="">
+        </div>
+        <div class="footer--info">
+            <div class="footer--addr">
+                <dl>
+                    <dt>경기도청</dt>
+                    <dd>(우 16508) 경기도 수원시 영통구 도청로 30 (이의동)</dd>
+                </dl>
+                <span>/</span>
+                <dl>
+                    <dt>북부청사</dt>
+                    <dd>(우 11780) 의정부시 청사로 1 (신곡동)</dd>
+                </dl>
+                <span>/</span>
+                <dl>
+                    <dt class="last-address">경기도 콜센터</dt>
+                    <dd>031-120 (365일 24시간)</dd>
+                </dl> 
+            </div>
+            <p class="footer--copy">© GYEONGGI PROVINCE All Rights Reserved.</p>
+        </div>
+    </div>
+</footer> -->
+
+<footer id="footer" class="footer">
+    <div class="footer--container main--footer">
+        <div class="footer--logo">
+            <img src="./assets/images/common/foot-logo-white.png" alt="">
+        </div>
+        <div class="footer--info">
+            <div class="footer--addr">
+                <dl>
+                    <dt>경기도청</dt>
+                    <dd>(우 16508) 경기도 수원시 영통구 도청로 30 (이의동)</dd>
+                </dl>
+                <span>/</span>
+                <dl>
+                    <dt>북부청사</dt>
+                    <dd>(우 11780) 의정부시 청사로 1 (신곡동)</dd>
+                </dl>
+                <span>/</span>
+                <dl>
+                    <dt class="last-address">경기도 플랫폼 문의</dt>
+                    <dd>031-120 (365일 24시간)</dd>
+                </dl> 
+            </div>
+            <p class="footer--copy">© GYEONGGI PROVINCE All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+<div class="overlay"></div>
+<button id="btnTop"></button>
+
+<script src="./assets/js/vendor/jquery/jquery-3.6.0.min.js"></script>
+<script src="./assets/js/vendor/jquery/jquery-ui.min.js"></script>
+<script src="./assets/js/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="./assets/js/vendor/nav.js"></script>
+<script src="./assets/js/vendor/jquery.gsap.min.js"></script>
+<script src="./assets/js/vendor/ScrollTrigger.min.js"></script>
+<script src="./assets/js/vendor/jquery-circle-progress-master/dist/circle-progress.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+
+<script src="./assets/js/vendor/common.js"></script>
+
+
+
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script>
+
+    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+    
+    ScrollTrigger.matchMedia({
+        "(min-width: 1024px)": function () {
+            // gg-intro-top 애니메이션
+            gsap.timeline({
+                scrollTrigger: {
+                    trigger: ".gg-intro-top",
+                    start: "top 80%",
+                    end: "bottom 20%",
+                    toggleActions: "play none none none"
+                }
+            })
+            .from(".gg-intro-top .logo", {
+                duration: 1,
+                y: 50,
+                opacity: 0,
+                ease: "power2.out"
+            })
+            .from(".gg-intro-top .text", {
+                duration: 1,
+                y: 30,
+                opacity: 0,
+                ease: "power2.out"
+            }, "-=0.5")
+            .from(".gg-intro-top .video-area", {
+                duration: 1.2,
+                scale: 0.8,
+                opacity: 0,
+                ease: "power2.out"
+            }, "-=0.3")
+            .from(".gg-intro-top .text-group", {
+                duration: 0.8,
+                y: 40,
+                opacity: 0,
+                stagger: 0.2,
+                ease: "power2.out"
+            }, "-=0.5");
+
+            // gg-intro-vision 애니메이션
+            gsap.from(".gg-intro-vision img", {
+                scrollTrigger: {
+                    trigger: ".gg-intro-vision",
+                    start: "top 70%",
+                    end: "bottom 30%",
+                    toggleActions: "play none none none"
+                },
+                duration: 1.5,
+                scale: 0.7,
+                opacity: 0,
+                ease: "power2.out"
+            });
+
+            // gg-intro-value 애니메이션
+            gsap.timeline({
+                scrollTrigger: {
+                    trigger: ".gg-intro-value",
+                    start: "top 70%",
+                    end: "bottom 30%",
+                    toggleActions: "play none none none"
+                }
+            })
+            .from(".gg-intro-value strong", {
+                duration: 1,
+                y: 30,
+                opacity: 0,
+                ease: "power2.out"
+            })
+            .from(".gg-intro-value .grid-item", {
+                duration: 1,
+                y: 60,
+                opacity: 0,
+                stagger: 0.3,
+                ease: "power2.out"
+            }, "-=0.5");
+
+            // gg-intro-special 애니메이션
+            gsap.timeline({
+                scrollTrigger: {
+                    trigger: ".gg-intro-special",
+                    start: "top 70%",
+                    end: "bottom 30%",
+                    toggleActions: "play none none none"
+                }
+            })
+           
+            .from(".gg-intro-special .desc", {
+                duration: 1,
+                y: 30,
+                opacity: 0,
+                ease: "power2.out"
+            }, "-=0.5")
+            .from(".gg-intro-special .box", {
+                duration: 1,
+                y: 50,
+                opacity: 0,
+                stagger: 0.2,
+                ease: "power2.out"
+            }, "-=0.3");
+
+            // gg-intro-end 애니메이션
+            gsap.timeline({
+                scrollTrigger: {
+                    trigger: ".gg-intro-end",
+                    start: "top 70%",
+                    end: "bottom 30%",
+                    toggleActions: "play none none none"
+                }
+            })
+            .from(".gg-intro-end h3", {
+                duration: 1,
+                y: 30,
+                opacity: 0,
+                ease: "power2.out"
+            })
+            .from(".gg-intro-end p", {
+                duration: 1,
+                y: 30,
+                opacity: 0,
+                ease: "power2.out"
+            }, "-=0.5")
+            .from(".gg-intro-end .video-area", {
+                duration: 1.2,
+                scale: 0.8,
+                opacity: 0,
+                ease: "power2.out"
+            }, "-=0.3");
+
+            // grid-item 내부 요소들 개별 애니메이션
+            gsap.utils.toArray(".grid-item").forEach((item, index) => {
+                gsap.timeline({
+                    scrollTrigger: {
+                        trigger: item,
+                        start: "top 80%",
+                        end: "bottom 20%",
+                        toggleActions: "play none none none"
+                    }
+                })
+                .from(item.querySelector(".grid-item-title"), {
+                    duration: 0.8,
+                    y: 30,
+                    opacity: 0,
+                    ease: "power2.out"
+                })
+                .from(item.querySelector(".text"), {
+                    duration: 0.8,
+                    y: 30,
+                    opacity: 0,
+                    ease: "power2.out"
+                }, "-=0.3")
+                .from(item.querySelectorAll(".round-list p"), {
+                    duration: 0.6,
+                    y: 20,
+                    opacity: 0,
+                    stagger: 0.1,
+                    ease: "power2.out"
+                }, "-=0.2")
+                .from(item.querySelector(".point-list"), {
+                    duration: 0.8,
+                    y: 30,
+                    opacity: 0,
+                    ease: "power2.out"
+                }, "-=0.2");
+            });
+
+            // box 내부 요소들 개별 애니메이션
+            gsap.utils.toArray(".box").forEach((box, index) => {
+                gsap.timeline({
+                    scrollTrigger: {
+                        trigger: box,
+                        start: "top 80%",
+                        end: "bottom 20%",
+                        toggleActions: "play none none none"
+                    }
+                })
+                .from(box.querySelector("strong"), {
+                    duration: 0.8,
+                    y: 30,
+                    opacity: 0,
+                    ease: "power2.out"
+                })
+                .from(box.querySelector("p"), {
+                    duration: 1,
+                    y: 40,
+                    opacity: 0,
+                    ease: "power2.out"
+                }, "-=0.3");
+            });
+        }
+    });
+    
+
+
+    </script>
+    
+</body>
+</html>
